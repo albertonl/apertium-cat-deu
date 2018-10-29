@@ -43,16 +43,16 @@ Testing
 If you are in the source directory after running make, the following
 commands should work:
 
-    $  echo "TODO test sentence 1" | apertium -d . cat-deu
-    TODO test translated sentence 1
+    $  echo "Hola món!" | apertium -d . cat-deu
+    Hallo Welt!
 
-    $ echo "TODO test sentence 2" | apertium -d . deu-cat
-    TODO test translated sentence 2
+    $ echo "Klein Welt" | apertium -d . deu-cat
+    Petit món
 
 After installing somewhere in `$PATH`, you should be able to do e.g.
 
-    $  echo "TODO test sentence 1" | apertium cat-deu
-    TODO test translated sentence 1
+    $  echo "Hola món!" | apertium cat-deu
+    Hallo Welt!
 
 Files and data
 -------------------------------------------------------------------------------
